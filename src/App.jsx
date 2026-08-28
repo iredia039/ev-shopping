@@ -6,6 +6,7 @@ import Products from './components/Products';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Logs from './assets/About Us.png'
 
 
 
@@ -25,6 +26,8 @@ function App() {
         <Route path='/search' element={<Contact />} />
 
     </Routes>
+
+    <Home />
     </>
   )
 }
