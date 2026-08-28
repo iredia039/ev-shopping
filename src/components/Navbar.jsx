@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import { Route, Routes, Link } from 'react-router-dom'
-import Charging from './components/Charging';
-import Battery from './components/Battery';
-import Products from './components/Products';
-import Contact from './components/Contact';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+import { Link } from 'react-router-dom'
+// import Navbar from './components/Navbar';
+import Products from './Products';
+import Charging from './Charging';
+import Contact from './Contact';
+import Navlogo from '../assets/navbarlogo.png'
+import { FaSearch } from 'react-icons/fa';
+import { BiCart } from 'react-icons/bi';
+
 
 
 function Navbar(props) {
@@ -26,13 +27,13 @@ function Navbar(props) {
                 <Link to='/contact'>contact us</Link>
              </div>
 
-           <div>
+           <div className='flex items-center'>
               <div className='flex border rounded-2xl border-gray-400'>
                 <FaSearch className='text-gray-400'/>
                 <input type="search" placeholder='search' className='rounded-2xl'/>
              </div>
 
-             <BiCart />
+             <BiCart size={18} className=''/>
            </div>
             </nav>
             
