@@ -26,8 +26,8 @@ function Products() {
        <h1>our products</h1>
 
 
-<div className="ml-[8]">
-<div className="grid grid-cols-3">
+<div className="mx-auto px-4">
+<div className="grid grid-cols-3 gap-4 place-items-center">
            {/* <h2>delivery bikes</h2> */}
 
            {del.map((item)=> (
@@ -38,7 +38,7 @@ function Products() {
        ))}
 </div>
 
- <div className="grid grid-cols-3">
+ <div className="grid grid-cols-3 gap-4 place-items-center">
           {/* <h2>delivery bikes</h2> */}
 
               {no2.map((item)=> (
@@ -49,7 +49,7 @@ function Products() {
        ))}
  </div>
 
-<div className="grid grid-cols-3">
+<div className="grid grid-cols-3 gap-4 place-items-center">
            {/* <h2>delivery bikes</h2> */}
 
                      {no3.map((item)=> (
@@ -61,7 +61,7 @@ function Products() {
 </div>
 
 
-<div className="grid grid-cols-3">
+<div className="grid grid-cols-3 gap-4 place-items-center">
            {/* <h2>delivery bikes</h2> */}
     
                      {no4.map((item)=> (
@@ -72,7 +72,7 @@ function Products() {
        ))}
 </div>
 
-<div className="grid grid-cols-3">
+<div className="grid grid-cols-3 gap-4 place-items-center">
            {/* <h2>delivery bikes</h2> */}
              
                      {no5.map((item)=> (

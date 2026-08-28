@@ -10,11 +10,12 @@ import Navbar from './Navbar';
 // import Home from './Home';
 import Bg from '../assets/bg.png'
 import Homelogos from '../assets/home-logos.png'
-import Bghome from '../assets/homebg.png'
+// import Bghome from '../assets/homebg.png'
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 import First from '../assets/1st-image.png'
 import Second from '../assets/2nd-image.png'
 import Logs from '../assets/About Us.png'
+import Bike from '../assets/mortorcycle.png'
 // import {  } from 'react-icons/fa';
 
 function Home() {
@@ -25,7 +26,7 @@ function Home() {
         
         {/* <img src={Bg} alt="" /> */}
 
-        <div className='flex justify-around items-center h-[50vh]' style={{ backgroundImage: `url(${Bghome})` }}>
+        <div className='flex justify-around items-center h-[50vh] bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${Bike})` }}>
 
 <div>
 
@@ -51,7 +52,7 @@ function Home() {
 
         </div>
 
-        <section className='flex justify-around'>
+        <section className='flex justify-around mt-8'>
 
             <div className='flex'>
                 <img src={First} alt="" />
