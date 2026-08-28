@@ -1,13 +1,11 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
-import { Router, Link, Routes, Route, useNavigate } from "react-router-dom";
-import Charging from './Charging';
-import Battery from './Battery';
-import Products from './Products';
-import Contact from './Contact';
-import Navlogo from '../assets/navbarlogo.png'
-import { FaSearch, FaCart } from 'react-icons/fa';
-import { BiCart } from 'react-icons/bi';
+import { useState } from 'react'
+import { Route, Routes, Link } from 'react-router-dom'
+import Charging from './components/Charging';
+import Battery from './components/Battery';
+import Products from './components/Products';
+import Contact from './components/Contact';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 
 function Navbar(props) {

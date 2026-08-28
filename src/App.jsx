@@ -1,14 +1,13 @@
 import { useState } from 'react'
-import { Router, Route, Routes, Link } from 'react-router-dom'
+import { Route, Routes, Link } from 'react-router-dom'
 import Charging from './components/Charging';
 import Battery from './components/Battery';
 import Products from './components/Products';
 import Contact from './components/Contact';
-import Navlogo from './assets/navbarlogo.png'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import { FaArrowAltCircleRight, FaSearch, FaCart } from 'react-icons/fa';
-import { BiCart } from 'react-icons/bi';
+// import { FaArrowAltCircleRight, FaSearch, FaCart } from 'react-icons/fa';
+// import { BiCart } from 'react-icons/bi';
 
 
 function App() {

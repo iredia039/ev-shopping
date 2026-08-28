@@ -11,7 +11,7 @@ import Navbar from './Navbar';
 import Bg from '../assets/bg.png'
 import Homelogos from '../assets/home-logos.png'
 import Bghome from '../assets/homebg.png'
-import { FaArrowAltCircleRight, FaSearch, FaCart } from 'react-icons/fa';
+import { FaArrowAltCircleRight } from 'react-icons/fa';
 // import {  } from 'react-icons/fa';
 
 function Home() {
