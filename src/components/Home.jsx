@@ -14,6 +14,7 @@ import Bghome from '../assets/homebg.png'
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 import First from '../assets/1st-image.png'
 import Second from '../assets/2nd-image.png'
+import Logs from '../assets/About Us.png'
 // import {  } from 'react-icons/fa';
 
 function Home() {
@@ -69,6 +70,8 @@ Built for performance and sustainability, our vehicles are <br /> designed to me
         </section>
 
         <Products />
+
+        <img src={Logs} alt="" />
         </>
     );
 }
